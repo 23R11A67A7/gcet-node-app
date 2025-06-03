@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 
 app.get("/greet", (req, res) => {
   res.send("Greetings");
-});
+}); 
 
 app.get("/name", (req, res) => {
   res.send("Pavanasri");
